@@ -1,0 +1,20 @@
+# depslib dependency file v1.0
+1672839980 source:h:\documents\but 2022-2023\cours\sae\sae c\sae test\solo\sae_c solo working\fonctions.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<string.h>
+	"types.h"
+	"fonctions.h"
+
+1672840137 h:\documents\but 2022-2023\cours\sae\sae c\sae test\solo\sae_c solo working\fonctions.h
+	"types.h"
+
+1672839648 h:\documents\but 2022-2023\cours\sae\sae c\sae test\solo\sae_c solo working\types.h
+
+1672840172 source:h:\documents\but 2022-2023\cours\sae\sae c\sae test\solo\sae_c solo working\main.c
+	<stdio.h>
+	<stdlib.h>
+	"fonctions.h"
+	"types.h"
+
