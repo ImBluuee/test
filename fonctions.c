@@ -67,23 +67,8 @@ int recuperationdonnes(char *nomfichier, int *nbclients)
         }
         clients[*nbclients] = client;
         (*nbclients)++;
-        int i;
-                for (i = 0; i < nbClients; i++)
-                {
-                    afficherClient(&clients[i]);
-                }
     }
     fclose(fp);
     return nbclients;
 }
 
-void afficherClient(const Client* client)
-{
-    printf("Nom: %s\n", client->nom_p);
-    printf("Prénom: %s\n", client->prenom_p);
-    printf("Code postal: %s\n", client->codepostal_p);
-    printf("Ville: %s\n", client->ville_p);
-    printf("Numéro de téléphone: %s\n", client->telephone_p);
-    printf("Profession: %s\n", client->profession_p);
-
-}

@@ -4,7 +4,5 @@
 
 
 int recuperationdonnes(char *nomfichier, int *nbclients);
-void lecture_fichier();
-void afficherClient(const Client* client);
 
 #endif // FONCTIONS_H_INCLUDED
