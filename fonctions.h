@@ -3,6 +3,8 @@
 #include "types.h"
 
 
-int recuperationdonnes(char *nomfichier, int *nbclients);
+int recuperationdonnes(const char *nom_annuaire, int *nbclients);
+int ajouterClient(const char *nom_annuaire, Client* clients, int *nbClients);
+int ifflush(FILE* stream);
 
 #endif // FONCTIONS_H_INCLUDED
